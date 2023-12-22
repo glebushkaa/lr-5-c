@@ -11,7 +11,6 @@ int random(int min, int max) {
 
 Array emptyIntArray() {
     return (Array) {
-        
         malloc(sizeof(int) * 0),
         0
     };
