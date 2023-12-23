@@ -21,4 +21,6 @@ void showCells(Array* array);
 void swapCells(Array* array, int firstCellStartIndex, int secondCellStartIndex);
 void invertCell(Array* array, int startIndex);
 
+void swapCellsByDefaultArray(Array* array, int firstCellStartIndex, int secondCellStartIndex);
+
 #endif
